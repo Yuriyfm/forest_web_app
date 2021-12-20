@@ -10,7 +10,7 @@ export default class MainContent extends React.Component {
     }
 
     componentDidMount() {
-        let token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQyMjExMDI4LCJpYXQiOjE2Mzk2MTkwMjgsImp0aSI6ImRiYzVmMjgzOGRlMDQwMjU4NGQ2MjVhYmVhZjU1NWNkIiwidXNlcl9pZCI6MX0.KNybOMH_BEkdz-hU45EORMLzo6kT6iU4uszjvsvEblk'
+        let token = ''
 
         const config = {
             headers: { 'Authorization': `Bearer ${token}`,
