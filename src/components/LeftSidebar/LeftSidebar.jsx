@@ -1,12 +1,12 @@
 import React from "react";
 import s from './LeftSidebar.module.css'
-import DataTree from "./DataTree/DataTree";
+import DelyanasData from "./DelyanasData/DelyanasData";
 
 const LeftSidebar = () => {
     return (
         <div className={s.nav}>
             <div>
-                <DataTree />
+                <DelyanasData />
             </div>
         </div>
     )

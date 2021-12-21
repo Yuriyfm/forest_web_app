@@ -1,7 +1,10 @@
 import {combineReducers, createStore} from 'redux'
+import {delyanasDataReducer} from "./reducers/delyanasData-reducer";
 
 
-let reducers = combineReducers({});
+let reducers = combineReducers({
+    delyanasDataReducer: delyanasDataReducer
+});
 
 let store = createStore(reducers);
 

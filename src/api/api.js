@@ -1,7 +1,6 @@
 import * as axios from "axios";
 
 let token = ''
-
 const config = {
     headers: {
         Authorization: `Bearer ${token}`,
