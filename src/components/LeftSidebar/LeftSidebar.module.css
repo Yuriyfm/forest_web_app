@@ -1,0 +1,9 @@
+.nav {
+    grid-area: l;
+    background-color: burlywood;
+}
+
+.nav a {
+    color: darkred;
+    text-decoration: none;
+}

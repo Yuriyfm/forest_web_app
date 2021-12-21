@@ -1,0 +1,4 @@
+.rightsideBar {
+    grid-area: r;
+    background-color: teal;
+}
